@@ -6,6 +6,11 @@ so a lot of what's here is me working something out rather than me knowing it in
 The write-ups exist because the interesting part usually turned out to be the measurement
 that changed my mind, and that tends to get lost once the thing is working.
 
+The thread running through most of them is that generating output with these tools is easy,
+and generating output that is accurate and worth someone's time is not.  Several of these
+notes are about holding something back until it was good enough, or about finding out that
+something I had already shipped wasn't as good as I thought it was.
+
 Two of the projects account for most of it:
 
 **AIP Pulse** researches large companies — for me that means prospects and customers —
@@ -23,11 +28,15 @@ evaluation judge.  The code for both lives in private repositories, because the 
 handle isn't mine to publish.  These notes are the part that can be shared, so companies are
 described by role rather than named and anything that would identify one is left out.
 
-## Research engines and models
+## Models and engines
 
 - [Swapping out the research engine](research/self-hosted-vs-paid-research.md) — a paid
   deep-research API returned four times as much text as a self-hosted engine and produced
   fewer grounded facts.  Why, and what it cost me to find out.
+- [Four text-to-speech models before one was good enough to ship](research/choosing-a-tts-model.md)
+  — the podcast stayed switched off through three candidates.  One was disqualified on its
+  licence before quality came into it, and one sounded best in a short sample and fell apart
+  over a full episode, which changed how I test.
 - [Choosing an inference model](research/choosing-an-inference-model.md) — three models
   over ten accounts, where the newest was better on every judged layer and twice as fast,
   and the fastest one was ruled out for being confidently wrong about its own reasoning.
