@@ -79,6 +79,14 @@ described by role rather than named and anything that would identify one is left
   watch it fail, because a guard you've never seen fail and a guard that can't fail look
   the same.
 
+## Earlier work
+
+- [Finding the alert that shows up first](research/leading-indicator-alerts.md) — a 2020
+  machine learning project to detect the alerts that reliably precede an IT incident, built
+  in my spare time over months without knowing Python, pandas or TensorFlow when I started.
+  The useful part was defining what "the first sign of a problem" meant in a way a database
+  could check.
+
 ## Tools
 
 Two pieces of the lab are general enough to be useful on their own and will be published
