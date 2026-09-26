@@ -28,6 +28,12 @@ evaluation judge.  The code for both lives in private repositories, because the 
 handle isn't mine to publish.  These notes are the part that can be shared, so companies are
 described by role rather than named and anything that would identify one is left out.
 
+## Start here
+
+- [Keeping up with a customer is harder than it looks](research/what-these-systems-do.md) —
+  what both systems are for, why handing the job to a model doesn't work on its own, and why
+  there's a year of issues behind a report that looks simple.
+
 ## Models and engines
 
 - [Swapping out the research engine](research/self-hosted-vs-paid-research.md) — a paid
@@ -40,6 +46,10 @@ described by role rather than named and anything that would identify one is left
 - [Choosing an inference model](research/choosing-an-inference-model.md) — three models
   over ten accounts, where the newest was better on every judged layer and twice as fast,
   and the fastest one was ruled out for being confidently wrong about its own reasoning.
+
+- The three-layer split *(planned)* — separating what was observed from what can be derived
+  from it and what can be inferred on top, why collapsing those was the biggest source of
+  wrong answers, and which parts of it a model actually grades.
 
 ## Retrieval and evidence
 

@@ -1,7 +1,7 @@
 # Swapping out the research engine: what the tests actually showed
 
-One of the bigger decisions in building AIP and AIP Pulse was where the research
-actually comes from.  Both solutions start the same way — given a company, go find out
+One of the bigger decisions in building AIP and AIP Pulse ([what they are and what they
+produce](what-these-systems-do.md)) was where the research actually comes from.  Both solutions start the same way — given a company, go find out
 what's happened recently — and for the first several months that step was a paid
 deep-research API.  Eventually I replaced it with a self-hosted setup, and the testing
 that led to that decision surprised me enough that it's worth writing down.
@@ -36,6 +36,15 @@ where the research came from.
 | Absent / inferred metrics | 2.0 | 3.6 |
 | Judge: faithfulness | 0.846 | 0.873 |
 | Judge: reasoning quality | 0.872 | 0.917 |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../images/research-engine-comparison-dark.svg">
+  <img alt="Six small bar charts comparing the two engines across ten accounts. The paid engine
+  returned about four times as much research text, while producing fewer observations, fewer
+  metrics backed by evidence, and more metrics left unsupported. It scored slightly higher on
+  both judged measures." src="../images/research-engine-comparison-light.svg">
+</picture>
+
 
 Four times as much research text produced slightly fewer grounded metrics and noticeably
 more unsupported inference.  That wasn't the result I was expecting, and it took me a

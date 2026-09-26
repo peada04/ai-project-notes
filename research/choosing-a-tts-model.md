@@ -3,7 +3,8 @@
 Each AIP Pulse report goes out with a short podcast called Signal & Close — three
 speakers talking through what changed at a company over the last month.  The script is
 written by a local model and read by a local text-to-speech model, and the whole thing
-runs on hardware in my home lab.
+runs on hardware in my home lab.  ([What these systems do](what-these-systems-do.md) has the
+wider context.)
 
 The rule I set myself was that the podcast doesn't ship unless it's actually worth
 listening to.  A report nobody reads is a waste of the reader's time; an audio briefing

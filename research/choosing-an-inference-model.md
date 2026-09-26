@@ -2,8 +2,10 @@
 
 AIP runs a company's research through several inference passes — pull atomic observations
 out of the sources, derive metrics from those observations, then reason over the whole
-thing to produce inferences and recommended actions.  All of that runs locally on a DGX
-Spark, so the choice of model is mine to make and worth actually testing.
+thing to produce inferences and recommended actions.  ([What these systems
+do](what-these-systems-do.md) covers what AIP is for and how it judges itself.)  All of that
+runs locally on a DGX Spark, so the choice of model is mine to make and worth actually
+testing.
 
 In June I compared three: Qwen3.5-35B-A3B, which was the existing baseline,
 NVIDIA-Nemotron-3-Nano-30B-A3B in NVFP4, and Qwen3.6-35B-A3B.  Ten financial services

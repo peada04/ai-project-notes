@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 202" width="760" height="202" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Six measures comparing a self-hosted research engine with a paid deep-research API across ten accounts. The paid engine returned about four times as much text while producing fewer observations and fewer evidence-backed metrics.">
+<rect x="28" y="14" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="44" y="23" font-size="12.5" fill="#52514e">Self-hosted</text>
+<rect x="127.0" y="14" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="143.0" y="23" font-size="12.5" fill="#52514e">Paid deep research</text>
+<text x="732" y="23" font-size="12" text-anchor="end" fill="#52514e">per account, n=10</text>
+<text x="28" y="54" font-size="12.5" font-weight="600" fill="#0b0b0b">Research text (chars)</text>
+<path d="M28.0 70 H53.1 a4 4 0 0 1 4 4 V81 a4 4 0 0 1 -4 4 H28.0 Z" fill="#2a78d6"/>
+<text x="64.1" y="81.5" font-size="12" fill="#52514e">9,409</text>
+<path d="M28.0 87 H142.0 a4 4 0 0 1 4 4 V98 a4 4 0 0 1 -4 4 H28.0 Z" fill="#eb6834"/>
+<text x="153.0" y="98.5" font-size="12" fill="#52514e">38,091</text>
+<line x1="28" y1="70" x2="28" y2="102" stroke="#dcdcd8" stroke-width="1"/>
+<text x="262" y="54" font-size="12.5" font-weight="600" fill="#0b0b0b">Observations extracted</text>
+<path d="M262.0 70 H376.0 a4 4 0 0 1 4 4 V81 a4 4 0 0 1 -4 4 H262.0 Z" fill="#2a78d6"/>
+<text x="387.0" y="81.5" font-size="12" fill="#52514e">17.3</text>
+<path d="M262.0 87 H354.2 a4 4 0 0 1 4 4 V98 a4 4 0 0 1 -4 4 H262.0 Z" fill="#eb6834"/>
+<text x="365.2" y="98.5" font-size="12" fill="#52514e">14.1</text>
+<line x1="262" y1="70" x2="262" y2="102" stroke="#dcdcd8" stroke-width="1"/>
+<text x="496" y="54" font-size="12.5" font-weight="600" fill="#0b0b0b">Metrics from evidence</text>
+<path d="M496.0 70 H610.0 a4 4 0 0 1 4 4 V81 a4 4 0 0 1 -4 4 H496.0 Z" fill="#2a78d6"/>
+<text x="621.0" y="81.5" font-size="12" fill="#52514e">4.9</text>
+<path d="M496.0 87 H590.7 a4 4 0 0 1 4 4 V98 a4 4 0 0 1 -4 4 H496.0 Z" fill="#eb6834"/>
+<text x="601.7" y="98.5" font-size="12" fill="#52514e">4.1</text>
+<line x1="496" y1="70" x2="496" y2="102" stroke="#dcdcd8" stroke-width="1"/>
+<text x="28" y="140" font-size="12.5" font-weight="600" fill="#0b0b0b">Metrics left unsupported</text>
+<path d="M28.0 156 H89.6 a4 4 0 0 1 4 4 V167 a4 4 0 0 1 -4 4 H28.0 Z" fill="#2a78d6"/>
+<text x="100.6" y="167.5" font-size="12" fill="#52514e">2.0</text>
+<path d="M28.0 173 H142.0 a4 4 0 0 1 4 4 V184 a4 4 0 0 1 -4 4 H28.0 Z" fill="#eb6834"/>
+<text x="153.0" y="184.5" font-size="12" fill="#52514e">3.6</text>
+<line x1="28" y1="156" x2="28" y2="188" stroke="#dcdcd8" stroke-width="1"/>
+<text x="262" y="140" font-size="12.5" font-weight="600" fill="#0b0b0b">Judge: faithfulness</text>
+<path d="M262.0 156 H372.4 a4 4 0 0 1 4 4 V167 a4 4 0 0 1 -4 4 H262.0 Z" fill="#2a78d6"/>
+<text x="383.4" y="167.5" font-size="12" fill="#52514e">0.846</text>
+<path d="M262.0 173 H376.0 a4 4 0 0 1 4 4 V184 a4 4 0 0 1 -4 4 H262.0 Z" fill="#eb6834"/>
+<text x="387.0" y="184.5" font-size="12" fill="#52514e">0.873</text>
+<line x1="262" y1="156" x2="262" y2="188" stroke="#dcdcd8" stroke-width="1"/>
+<text x="496" y="140" font-size="12.5" font-weight="600" fill="#0b0b0b">Judge: reasoning</text>
+<path d="M496.0 156 H604.2 a4 4 0 0 1 4 4 V167 a4 4 0 0 1 -4 4 H496.0 Z" fill="#2a78d6"/>
+<text x="615.2" y="167.5" font-size="12" fill="#52514e">0.872</text>
+<path d="M496.0 173 H610.0 a4 4 0 0 1 4 4 V184 a4 4 0 0 1 -4 4 H496.0 Z" fill="#eb6834"/>
+<text x="621.0" y="184.5" font-size="12" fill="#52514e">0.917</text>
+<line x1="496" y1="156" x2="496" y2="188" stroke="#dcdcd8" stroke-width="1"/>
+</svg>
